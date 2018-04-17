@@ -1,0 +1,14 @@
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Services\bin\Debug\App.Model.Services.dll.config
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Services\bin\Debug\App.Model.Services.dll
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Services\bin\Debug\App.Model.Services.pdb
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Services\bin\Debug\App.Model.Api.dll
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Services\bin\Debug\App.Model.Data.dll
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Services\bin\Debug\EntityFramework.dll
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Services\bin\Debug\EntityFramework.SqlServer.dll
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Services\bin\Debug\App.Model.Api.pdb
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Services\bin\Debug\App.Model.Data.pdb
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Services\bin\Debug\EntityFramework.xml
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Services\bin\Debug\EntityFramework.SqlServer.xml
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Services\obj\Debug\App.Model.Services.csprojResolveAssemblyReference.cache
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Services\obj\Debug\App.Model.Services.dll
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Services\obj\Debug\App.Model.Services.pdb

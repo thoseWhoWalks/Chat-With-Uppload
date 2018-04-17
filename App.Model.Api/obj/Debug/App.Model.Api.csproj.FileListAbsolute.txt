@@ -1,0 +1,5 @@
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Api\bin\Debug\App.Model.Api.dll
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Api\bin\Debug\App.Model.Api.pdb
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Api\obj\Debug\App.Model.Api.csprojResolveAssemblyReference.cache
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Api\obj\Debug\App.Model.Api.dll
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Api\obj\Debug\App.Model.Api.pdb

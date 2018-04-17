@@ -1,0 +1,12 @@
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Data\bin\Debug\App.Model.Data.dll.config
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Data\bin\Debug\App.Model.Data.dll
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Data\bin\Debug\App.Model.Data.pdb
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Data\bin\Debug\EntityFramework.dll
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Data\bin\Debug\EntityFramework.SqlServer.dll
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Data\bin\Debug\EntityFramework.xml
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Data\bin\Debug\EntityFramework.SqlServer.xml
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Data\obj\Debug\App.Model.Data.csprojResolveAssemblyReference.cache
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Data\obj\Debug\App.Model.Data.dll
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Data\obj\Debug\App.Model.Data.pdb
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Data\obj\Debug\App.Model.Data.Migrations.Init.resources
+d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Data\obj\Debug\App.Model.Data.csproj.GenerateResource.Cache
