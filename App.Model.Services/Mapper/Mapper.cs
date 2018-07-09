@@ -36,7 +36,17 @@ namespace App.Model.Services
 
         #region ImageMapping 
 
-        
+        //internal static ImageModelApi ToImageModelApi(Image model)
+        //{
+        //    return new ImageModelApi
+        //    {
+        //        Id = model.Id,
+        //        Path = model.Path,
+        //         Upploader = ToAccountModelApi(model.Account),
+        //    }
+
+        //}
+
         #endregion
     }
 }

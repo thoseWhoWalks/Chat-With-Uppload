@@ -7,6 +7,7 @@ namespace App.Model
         public int Id { get; set; }
 
         public string Path { get; set; }
-         
+
+        public AccountModelApi Upploader { get; set; }
     }
 }
