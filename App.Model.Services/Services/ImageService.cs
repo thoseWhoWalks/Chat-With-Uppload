@@ -20,8 +20,7 @@ namespace App.Model.Services
             {
                 Id = res.Id,
                 Path = res.OriginPath + res.Extention,
-                Upploader = Mapper.ToAccountModelApi(res.Account, db_context.AccountInfos.FirstOrDefault(ai => ai.Id == res.Account.Id))
-            };
+             };
         }
 
         public override ImageModelApi Delete(ImageModelApi model)
@@ -42,8 +41,7 @@ namespace App.Model.Services
         {
             var img = new Image
             {
-                Path = model.Path,
-                Account = Mapper.ToAccountModel(model.Upploader),
+                Path = model.Path, 
                 Extention = model.Path.TrimStart('.'),
                 OriginPath = model.Path.TrimEnd('.')
             };

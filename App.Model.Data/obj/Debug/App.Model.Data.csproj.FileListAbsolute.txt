@@ -10,3 +10,33 @@ d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Data\obj\De
 d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Data\obj\Debug\App.Model.Data.pdb
 d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Data\obj\Debug\App.Model.Data.Migrations.Init.resources
 d:\Users\301-03\documents\visual studio 2015\Projects\Some\App.Model.Data\obj\Debug\App.Model.Data.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\ASPChat\App.Model.Data\bin\Debug\xunit.abstractions.dll
+C:\Users\User\Desktop\ASPChat\App.Model.Data\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\User\Desktop\ASPChat\App.Model.Data\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\User\Desktop\ASPChat\App.Model.Data\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\User\Desktop\ASPChat\App.Model.Data\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+C:\Users\User\Desktop\ASPChat\App.Model.Data\bin\Debug\xunit.runner.reporters.net452.dll
+C:\Users\User\Desktop\ASPChat\App.Model.Data\bin\Debug\xunit.runner.utility.net452.dll
+C:\Users\User\Desktop\ASPChat\App.Model.Data\bin\Debug\App.Model.Data.dll.config
+C:\Users\User\Desktop\ASPChat\App.Model.Data\bin\Debug\App.Model.Data.dll
+C:\Users\User\Desktop\ASPChat\App.Model.Data\bin\Debug\App.Model.Data.pdb
+C:\Users\User\Desktop\ASPChat\App.Model.Data\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\ASPChat\App.Model.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\ASPChat\App.Model.Data\bin\Debug\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\User\Desktop\ASPChat\App.Model.Data\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\User\Desktop\ASPChat\App.Model.Data\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\User\Desktop\ASPChat\App.Model.Data\bin\Debug\xunit.assert.dll
+C:\Users\User\Desktop\ASPChat\App.Model.Data\bin\Debug\xunit.core.dll
+C:\Users\User\Desktop\ASPChat\App.Model.Data\bin\Debug\xunit.execution.desktop.dll
+C:\Users\User\Desktop\ASPChat\App.Model.Data\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\ASPChat\App.Model.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\ASPChat\App.Model.Data\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\User\Desktop\ASPChat\App.Model.Data\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\User\Desktop\ASPChat\App.Model.Data\bin\Debug\xunit.assert.xml
+C:\Users\User\Desktop\ASPChat\App.Model.Data\bin\Debug\xunit.core.xml
+C:\Users\User\Desktop\ASPChat\App.Model.Data\bin\Debug\xunit.execution.desktop.xml
+C:\Users\User\Desktop\ASPChat\App.Model.Data\obj\Debug\App.Model.Data.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\ASPChat\App.Model.Data\obj\Debug\App.Model.Data.Migrations.Init.resources
+C:\Users\User\Desktop\ASPChat\App.Model.Data\obj\Debug\App.Model.Data.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\ASPChat\App.Model.Data\obj\Debug\App.Model.Data.dll
+C:\Users\User\Desktop\ASPChat\App.Model.Data\obj\Debug\App.Model.Data.pdb

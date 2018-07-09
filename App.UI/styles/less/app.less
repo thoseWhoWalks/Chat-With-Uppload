@@ -1,0 +1,226 @@
+@defaultOpacity: 0.8;
+@defaultFontSize: 16px;
+@defaultSecondaryFontSize: 13px;
+@defaultHeight: 200px;
+@defaultSmallFontsCollor: white;
+
+nav {
+    opacity: @defaultOpacity;
+    .form-inline {
+        padding-right: 25px;
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: @defaultSmallFontsCollor;
+}
+
+.heap {
+    background: url("../images/heapBackgroung1.jpg") no-repeat center;
+    height: 425px;
+    .heapText {
+        margin-top: 150px;
+    }
+}
+
+.title {
+    margin-bottom: 40px;
+}
+
+.slider {
+    padding-top: 100px;
+    margin-right: 10px;
+
+    .sliderButton {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 7px #000;
+        background: #fff;
+        display: inline-flex;
+        margin-left: 5px;
+        opacity: @defaultOpacity;
+        cursor: pointer;
+    }
+
+    .active {
+        opacity: 1;
+    }
+
+}
+
+.content {
+    margin-top: 50px;
+    height: @defaultHeight;
+    line-height: 16px;
+    .contentTitle {
+        margin-left: 15%;
+        line-height: 26px;
+        font-size: @defaultFontSize;
+        color: cornflowerblue;
+        align-self: center;
+    }
+    .contentText {
+        margin-left: 10%;
+        width: 85%;
+        font-size: @defaultSecondaryFontSize;
+    }
+}
+
+.gallary {
+    h4 {
+        padding: 10px;
+        padding-top: 35px;
+    }
+
+    p {
+        width: 95%;
+        padding-left: 7.5%;
+        padding-bottom: 5px;
+        font-size: @defaultSecondaryFontSize;
+    }
+
+    button {
+        margin-top: -15px;
+        margin-bottom: 15px;
+        margin-left: 30px;
+    }
+
+    img {
+        height: 200px;
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
+    .gallaryBlock {
+        &:last-child {
+            margin-top: 15px;
+        }
+    }
+
+}
+
+.notification {
+    height: 30px;
+    color: white;
+    background: #758f96;
+    display: block;
+    border: 1px solid;
+    border-color: #526266;
+    font-size: 14px;
+    margin-bottom: -10px;
+}
+
+.testemonials {
+    height: 285px;
+    margin-top: 35px;
+    background: linear-gradient( #fdfbfb, #ebedee);
+    padding-top: 35px;
+
+    font-size: 13px;
+    h4 {
+        padding-bottom: 10px;
+    }
+
+    img {
+        height: 55px;
+
+        margin: 15px;
+    }
+}
+
+.form {
+    height: 530px;
+    background: linear-gradient( #fdfbfb, #ebedee);
+    padding-top: 35px;
+
+    h4 {
+        padding-bottom: 10px;
+    }
+
+    #fileDialog {
+        display: none;
+    }
+
+    .avaInput {
+        padding-top: 50px;
+    }
+
+    .ava {
+        img {
+            height: @defaultHeight;
+        }
+        height: @defaultHeight;
+        padding-right: 50px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .password {
+        input {
+            width: 125%;
+
+        }
+
+        padding-top: 10px;
+    }
+
+
+    .email {
+        padding-top: 30px;
+    }
+
+    .licences {
+        padding-top: 15px;
+        margin-left: 15%;
+    }
+
+
+}
+
+footer {
+    padding: 15px;
+    height: @defaultHeight;
+    background: linear-gradient(-128deg, rgb(124, 132, 139), rgb(130, 135, 145));
+    font-size: 12px;
+    color: whitesmoke;
+    img {
+        height: 50px;
+    }
+
+    ul,
+    li {
+        list-style: none;
+    }
+
+    .footerLine {
+        margin-top: 20px;
+        height: 40px;
+        background: linear-gradient(-128deg, rgb(104, 110, 115), rgb(107, 111, 119));
+        z-index: 1;
+        img {
+            height: 35px;
+        }
+    }
+}
+
+.modal-body {
+    background: linear-gradient( #fdfbfb, #ebedee);
+    form {
+
+        label {
+            margin-top: 7px;
+        }
+        button {
+            background: #5FD25F;
+        }
+        .form-check {
+            margin-top: 7px;
+        }
+    }
+}
+
+.modal-header {
+    background: linear-gradient(to left, #ebedee, #fdfbfb);
+}

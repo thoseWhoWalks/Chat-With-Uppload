@@ -49,6 +49,18 @@ namespace App.Model.Services
                 LastName = model.LastName,
             };
 
+            if (model.Img.Path != null)
+            {
+
+                acc.Images.Add(new Image
+                {
+                    Id = model.Img.Id,
+                    Path = model.Img.Path,
+                    Extention = model.Img.Path.TrimStart('.'),
+                    OriginPath = model.Img.Path.TrimEnd('.')
+                });
+            }
+
             db_context.Accounts.Add(acc);
             db_context.SaveChanges();
 
@@ -65,6 +77,14 @@ namespace App.Model.Services
 
             account.FirstName = model.FirstName;
             account.LastName = model.LastName;
+
+            account.Images.Add(new Image
+            {
+                Id = model.Img.Id,
+                Path = model.Img.Path,
+                Extention = model.Img.Path.TrimStart('.'),
+                OriginPath = model.Img.Path.TrimEnd('.')
+            });
 
             return Get(account.Id);
 

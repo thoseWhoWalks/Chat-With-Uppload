@@ -1,0 +1,115 @@
+﻿@{
+    if (User.Identity.IsAuthenticated)
+    {
+        ViewBag.Title = "Account";
+    }
+    else {
+        ViewBag.Title = "Sign Up";
+    }
+}
+
+@model App.Model.Api.AccountModelApi
+
+@if (User.Identity.IsAuthenticated&&Model!=null)
+{
+<div class="fluid-container form text-secondary">
+    <h4 class="text-info d-flex justify-content-around">Account</h4>
+    <form id="signUpForm" action="Account/Put">
+
+        <div class="d-flex justify-content-center">
+            <div class="ava"><img src="~/images/noAva.png" class="img-thumbnail" alt="ava"></div>
+
+            
+                <input type="file" id="fileDialog" accept="image/gif, image/jpeg, image/png, image/raw">
+            
+            <div class=" row avaInput">
+                <div class="form-group  col-lg-12">
+                    <input type="text" class="form-control col" name="FirstName" autocomplete="given-name" pattern="[a-zA-Z]+" placeholder="First Name" id="firstName" value="@Model.FirstName">
+                </div>
+                <div class="form-group  col-lg-12">
+                    <input type="text" class="form-control col" name="LastName" autocomplete="family-name" placeholder="Last Name" pattern="[a-zA-Z]+" id="lastName" value="@Model.LastName">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="form-group">
+            <div class="d-flex justify-content-center email">
+                <input type="email" autocomplete="email" name="Login" class="form-control col-lg-6" placeholder="E-mail" required id="email" value="@Model.Login">
+            </div>
+        </div>
+
+        <div class="form-group container row d-flex justify-content-center password">
+            <div class="form-group offset-lg-2 col-lg-3 ">
+                <input type="password" class="form-control" name="Password" pattern=".{6,}" required placeholder="Password" id="password" value="123456">
+            </div>
+            <div class="form-group offset-lg-1 col-lg-3">
+                <input type="password" class="form-control" required placeholder="Repeat password" id="repeatPassword" value="123456">
+            </div>
+        </div>
+
+        <div class="form-group container row d-flex justify-content-center">
+            <div class="offset-lg-3 col-lg-3  ">
+                <label class="form-check-label licences">
+                    <input class="form-check-input" id="licences" type="checkbox"> Accept the licences
+                </label>
+            </div>
+            <div class="offset-lg-2  col-lg-2 ">
+                <button class="btn btn-primary btn-lg" disabled="true">Register</button>
+            </div>
+        </div>
+
+    </form>
+</div>
+}
+else
+{
+    <div class="fluid-container form text-secondary">
+        <h4 class="text-info d-flex justify-content-around">Registration</h4>
+        <form id="signUpForm">
+
+            <div class="d-flex justify-content-center">
+                <div class="ava"><img src="~/images/noAva.png" class="img-thumbnail" alt="ava"></div>
+
+                <input type="file" id="fileDialog" accept="image/gif, image/jpeg, image/png, image/raw">
+
+                <div class=" row avaInput">
+                    <div class="form-group  col-lg-12">
+                        <input type="text" class="form-control col" name="FirstName" autocomplete="given-name" pattern="[a-zA-Z]+" placeholder="First Name" id="firstName" >
+                    </div>
+                    <div class="form-group  col-lg-12">
+                        <input type="text" class="form-control col" name="LastName" autocomplete="family-name" placeholder="Last Name" pattern="[a-zA-Z]+" id="lastName">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="form-group">
+                <div class="d-flex justify-content-center email">
+                    <input type="email" autocomplete="email" name="Login" class="form-control col-lg-6" placeholder="E-mail" required id="email">
+                </div>
+            </div>
+
+            <div class="form-group container row d-flex justify-content-center password">
+                <div class="form-group offset-lg-2 col-lg-3 ">
+                    <input type="password" class="form-control" name="Password" pattern=".{6,}" required placeholder="Password" id="password" >
+                </div>
+                <div class="form-group offset-lg-1 col-lg-3">
+                    <input type="password" class="form-control" required placeholder="Repeat password" id="repeatPassword">
+                </div>
+            </div>
+
+            <div class="form-group container row d-flex justify-content-center">
+                <div class="offset-lg-3 col-lg-3  ">
+                    <label class="form-check-label licences">
+                        <input class="form-check-input" id="licences" type="checkbox"> Accept the licences
+                    </label>
+                </div>
+                <div class="offset-lg-2  col-lg-2 ">
+                    <button id="submitBtn" class="btn btn-primary btn-lg" disabled="true">Register</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+}

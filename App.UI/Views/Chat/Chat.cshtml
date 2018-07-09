@@ -1,0 +1,72 @@
+﻿@{
+    ViewBag.Title = "Chat Page";
+}
+
+@model List<App.Model.MessageModelApi>
+
+@if (Model != null)
+{
+    <div id="chatSection">
+        <div class="heapChat ">
+            <div class="header col d-flex justify-content-around">
+                <h2 class="text-info"><span class="text-success">Chat</span> Section</h2>
+            </div>
+        </div>
+        <div class="bodyChat border border-success rounded">
+            @foreach (var msg in Model)
+            {
+                <div class="message row">
+                    <div class="ui col-lg-1">
+                        <div class="avaThumbnail"><img src="~/images/noAva.png" alt="avaThumbnail"></div>
+                        <div class="senderName">@msg.FromId.Login</div>
+                        <div class="date">@msg.Id</div>
+                    </div>
+                    <div class="messageBody offset-lg-2 col">
+                        <p>@msg.Body</p>
+                    </div>
+                </div>
+            }
+        </div>
+            <div class="sendSection ">
+                <input type="text" id="messageInput" placeholder="Type Here" class="offset-lg-4 col-lg-3 "></input>
+                <button type="button" id="sendMessage" class="btn btn-success col-lg-1  " name="sendMessage">Send</button>
+            </div>
+        </div>
+            }
+            else
+            {
+            <div id="chatSection">
+                <div class="heapChat ">
+                    <div class="header col d-flex justify-content-around">
+                        <h2 class="text-info"><span class="text-success">Chat</span> Section</h2>
+                    </div>
+                </div>
+                <div class="bodyChat border border-success rounded">
+                    <div class="message row">
+                        <div class="ui col-lg-1">
+                            <div class="avaThumbnail"><img src="~/images/noAva.png" alt="avaThumbnail"></div>
+                            <div class="senderName">Admin</div>
+                            <div class="date">23.05.18</div>
+                        </div>
+                        <div class="messageBody offset-lg-2 col">
+                            <p>Lorem dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+
+                    <div class="message row">
+                        <div class="ui col-lg-1">
+                            <div class="avaThumbnail"><img src="~/images/noAva.png" alt="avaThumbnail"></div>
+                            <div class="senderName">Admin</div>
+                            <div class="date">23.05.18</div>
+                        </div>
+                        <div class="messageBody offset-lg-2 col">
+                            <p>Lorem dolor sit amet consectetur adipisicing elit adipisicing elit adipisicing elitadipisicing elitadipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sendSection ">
+                    <input type="text" id="messageInput" placeholder="Type Here" class="offset-lg-4 col-lg-3 "></input>
+                    <button type="button" id="sendMessage" class="btn btn-success col-lg-1  " name="sendMessage">Send</button>
+                </div>
+            </div>
+            }
